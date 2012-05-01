@@ -16,6 +16,15 @@ All these commands can be executed only if you provide a valid username and API 
 
 # Usage #
 
+## Install From getSparks ##
+
+Please visit URL: http://getsparks.org/packages/TextMagic-SMS-API/show
+
+    // install from getSparks website
+    $ php tools/spark install -v1.0.1 TextMagic-SMS-API
+    // include TextMagic Library to controller
+    $this->load->spark('TextMagic-SMS-API/1.0.1');
+
 ### Send API ###
 
     // set message text
