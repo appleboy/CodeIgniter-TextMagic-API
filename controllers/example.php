@@ -11,6 +11,13 @@ class Example extends CI_Controller {
     {
         // load library
         $this->load->library('textmagic');
+
+        // set text
+        $text = 'Hi, I am appleboy';
+        // set phone (string or array)
+        $phone = array('xxxxxxxxxx');
+        $response = $this->textmagic->send($text, $phone);
+        print_r($response);
     }
 }
 /* End of file example.php */
