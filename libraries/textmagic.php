@@ -110,7 +110,7 @@ class Textmagic {
 
         $options = array(
             CURLOPT_POST => TRUE,
-            CURLOPT_SSL_VERIFYHOST => 1,
+            CURLOPT_SSL_VERIFYHOST => 2,
             CURLOPT_SSL_VERIFYPEER => 0
         );
 
@@ -134,7 +134,7 @@ class Textmagic {
 
         $options = array(
             CURLOPT_POST => TRUE,
-            CURLOPT_SSL_VERIFYHOST => 1,
+            CURLOPT_SSL_VERIFYHOST => 2,
             CURLOPT_SSL_VERIFYPEER => 0
         );
 
@@ -163,7 +163,7 @@ class Textmagic {
 
         $options = array(
             CURLOPT_POST => TRUE,
-            CURLOPT_SSL_VERIFYHOST => 1,
+            CURLOPT_SSL_VERIFYHOST => 2,
             CURLOPT_SSL_VERIFYPEER => 0
         );
 
@@ -192,7 +192,7 @@ class Textmagic {
 
         $options = array(
             CURLOPT_POST => TRUE,
-            CURLOPT_SSL_VERIFYHOST => 1,
+            CURLOPT_SSL_VERIFYHOST => 2,
             CURLOPT_SSL_VERIFYPEER => 0
         );
 
@@ -225,7 +225,7 @@ class Textmagic {
 
         $options = array(
             CURLOPT_POST => TRUE,
-            CURLOPT_SSL_VERIFYHOST => 1,
+            CURLOPT_SSL_VERIFYHOST => 2,
             CURLOPT_SSL_VERIFYPEER => 0
         );
 
@@ -251,7 +251,7 @@ class Textmagic {
 
         $options = array(
             CURLOPT_POST => TRUE,
-            CURLOPT_SSL_VERIFYHOST => 1,
+            CURLOPT_SSL_VERIFYHOST => 2,
             CURLOPT_SSL_VERIFYPEER => 0
         );
 
